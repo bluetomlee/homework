@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://fed.hz.netease.com/homework/u/hzlibin/zuoye1/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>博客日志</title>
+	<!--[if lte IE 6]>
+		<style>
+			body { behavior:url("css/csshover.htc"); }
+		</style>
+	<![endif]-->
+	<link rel="stylesheet" href="http://fed.hz.netease.com/homework/u/hzlibin/zuoye1/css/zuoye1.css">
+<style type="text/css"></style></head>
+<body>
+	<div class="g-doc">
+		<!-- 顶部区域 -->
+		<div class="g-topbar">
+			<ul class="m-nav">
+				<li><a href="">博客</a></li>
+				<li><a href="">摄影</a></li>
+				<li><a href="">随便看看</a></li>
+			</ul>
+			<div class="m-userinfo">
+				<span class="item">中午好，testblog</span>
+				<a href="" class="item">(<span class="letter f-ib"></span>5)</a>
+				<span>|</span>
+				<a href="" class="item"><span class="home f-ib"></span>个人中心</a>
+				<a href="" class="item">
+					消息(<span class="msgnum">1274</span>)
+				</a>
+				<a href="" class="item">
+					反馈
+				</a>
+				<span>|</span>
+				<a href="" class="item exit">
+					退出
+				</a>
+			</div>
+		</div>
+		<!-- 头部显示图标 -->
+		<div class="g-hd">
+			<div class="g-inner">
+				<div class="m-wel">
+					<img src="./3_files/ava.s" alt="">
+					<div class="intro">
+						<h1>欢迎！testblog</h1>
+						<div class="u-btn">
+							<span>传相片</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="g-bd f-cb">
+			<!-- 侧边栏显示菜单 -->
+			<div class="g-sd" id="menuSide" onclick="return NS.handler.menu(event);">
+				<div class="m-menu m-menu-1">
+					<div class="hd">
+						<span class="icon"></span>
+						<p>博客动态</p>
+					</div>
+					<ul class="cnt">
+						<li><a href="">博客动态</a></li>
+						<li><a href="">消息中心</a></li>
+					</ul>
+				</div>
+				<div class="m-menu m-menu-2">
+					<div class="hd">
+						<span class="icon"></span>
+						<p>博客管理</p>
+					</div>
+					<ul class="cnt">
+						<li><a href="">日志管理</a></li>
+						<li><a href="">博友管理</a></li>
+						<li><a href="">访问统计</a></li>
+						<li><a href="">博客设置</a></li>
+						<li><a href="">博客装扮</a></li>
+					</ul>
+				</div>
+				<div class="m-menu m-menu-3">
+					<div class="hd">
+						<span class="icon"></span>
+						<p>服务</p>
+					</div>
+					<ul class="cnt">
+						<li class="active"><a href="">手机博客</a></li>
+						<li><a href="">博客复制</a></li>
+						<li><a href="">邮件写博</a></li>
+						<li><a href="">手机邮</a></li>
+						<li><a href="">投票</a></li>
+						<li><a href="">读书</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="g-mn">
+				<h1 class="g-bdtt">日志管理</h1>
+				<div class="g-mnc">
+					<div class="m-mblog">
+						<div class="tabs">
+							<ul>
+								<li class="active" onclick="return NS.handler.changeTab.call(this);"><a href="">日志</a></li>
+								<li onclick="return NS.handler.changeTab.call(this);"><a href="">标签</a></li>
+							</ul>
+						</div>
+						<div class="contents" id="tabContent">
+							<!-- 第一个tab -->
+							<div class="tabitem crt">
+								<div class="m-pub">
+									<div class="wrapper">
+										<input type="hidden" id="blogId">
+										<input id="blogTitle" type="text" class="u-ipt" onfocus="NS.handler.focusipt();" onblur="NS.handler.bluript();" value="日志标题">
+										<textarea id="blogContent" class="u-tarea" onfocus="NS.handler.focusta();" onblur="NS.handler.blurta();">这里可以写日志哦~</textarea>
+										<div class="buttons">
+											<div class="u-btn" onclick="NS.handler.save();">
+												<span>发布</span>
+											</div>
+											<div class="u-btn" onclick="NS.handler.clear();">
+												<span>清空</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 日志列表 -->
+								<div class="m-blist">
+									<ul id="blogContainer"><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">向服务器发不跳转的统计请求</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_094065082085089074082080083095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:100;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_094065082085089074082080083095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_094065082085089074082080083095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2010-12-17 16:25:32</span>			<span class="attach">阅读17</span>			<span class="attach">评论0</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">禁用网页的鼠标右键功能</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_094065082085089074082082086095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:99;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_094065082085089074082082086095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_094065082085089074082082086095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2010-12-17 16:23:31</span>			<span class="attach">阅读3</span>			<span class="attach">评论0</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">厦门游的一些准备工作</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_080074081085089069092080094095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:98;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_080074081085089069092080094095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_080074081085089069092080094095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2010-06-17 09:44:53</span>			<span class="attach">阅读32</span>			<span class="attach">评论0</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">结婚誓盟</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_083065087085085066086094082095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:97;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_083065087085085066086094082095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_083065087085085066086094082095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2009-11-19 12:53:51</span>			<span class="attach">阅读37</span>			<span class="attach">评论1</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">畜生,我向你求婚了</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_082068084087080065092087085095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:96;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_082068084087080065092087085095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_082068084087080065092087085095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2009-08-25 16:17:24</span>			<span class="attach">阅读24</span>			<span class="attach">评论3</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">拔牙</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_082068084087080065092086083095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:95;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_082068084087080065092086083095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_082068084087080065092086083095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2009-08-25 16:16:15</span>			<span class="attach">阅读8</span>			<span class="attach">评论0</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">好久没来你的博客了  </a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_085066086094082074085095081095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:94;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_085066086094082074085095081095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_085066086094082074085095081095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2008-09-01 20:22:29</span>			<span class="attach">阅读7</span>			<span class="attach">评论0</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">2007年11月20日</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_087070080087085070084082085095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:93;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_087070080087085070084082085095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_087070080087085070084082085095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2007-11-20 14:09:31</span>			<span class="attach">阅读12</span>			<span class="attach">评论1</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">离开地球表面</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_087064092086082065085081086095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:92;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_087064092086082065085081086095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_087064092086082065085081086095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2007-10-22 18:46:34</span>			<span class="attach">阅读9</span>			<span class="attach">评论0</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">７月２９</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_087066080086085066086080095095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:91;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_087066080086085066086080095095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_087066080086085066086080095095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2007-09-10 21:07:31</span>			<span class="attach">阅读7</span>			<span class="attach">评论0</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">一个通宵后的今天</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_087066087086088071085085094095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:90;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_087066087086088071085085094095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_087066087086088071085085094095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2007-09-09 10:37:31</span>			<span class="attach">阅读6</span>			<span class="attach">评论1</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">今天 我 我们</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_087066085084083071084080081095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:89;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_087066085084083071084080081095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_087066085084083071084080081095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2007-09-05 22:01:22</span>			<span class="attach">阅读11</span>			<span class="attach">评论1</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">寻找生活的共同点</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_087067093083081071085084095095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:88;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_087067093083081071085084095095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_087067093083081071085084095095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="private"></span><span class="attach">2007-09-02 20:41:24</span>			<span class="attach">阅读13</span>			<span class="attach">评论0</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">八月最后一天的生活</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_087067092085082069080085081095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:87;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_087067092085082069080085081095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_087067092085082069080085081095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="private"></span><span class="attach">2007-08-31 22:36:57</span>			<span class="attach">阅读9</span>			<span class="attach">评论1</span>		</div></li><li class="item"><div class="top">			<div class="f-fl">				<input type="checkbox" class="f-vam cbox"><a href="">2007年8月30日</a>			</div>			<ul class="m-options f-fr">				<li>					<a href="" onclick="return NS.handler.edit(&#39;fks_087067083080080069093084081095086094088074087095&#39;);">编辑</a>				</li>				<li class="more" style="z-index:86;">					<a href="">更多</a>					<span></span>					<ul>						<li><a href="" onclick="return NS.handler.deleteBlog(&#39;fks_087067083080080069093084081095086094088074087095&#39;);">删除</a></li><li><a href="" onclick="return NS.handler.top(&#39;fks_087067083080080069093084081095086094088074087095&#39;,true)">置顶</a></li></ul>				</li>			</ul>		</div>		<div class="btm"><span class="attach">2007-08-30 21:23:11</span>			<span class="attach">阅读5</span>			<span class="attach">评论0</span>		</div></li></ul>
+									<div class="lfoot">
+										<div class="f-fl sewrap">
+											<input class="f-fl cbox" id="sel-all" type="checkbox" onclick="NS.handler.selectAll(this.checked);">
+											<label class="f-fl" for="sel-all">全选</label>
+										</div>
+										<div class="f-fl del" onclick="NS.handler.deleteSome()">删除</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabitem">
+								<p>没有标签</p>
+							</div>
+						</div>
+					</div>
+					<!-- 好友日志区域 -->
+					<div class="m-fblog">
+						<h2>好友最新日志</h2>
+						<div class="wrapper">
+							<ul id="friendBlogs" style="top: -208px;"><li>			<span class="fhead"></span>			<p class="fname">悟空空</p>			<p class="fbcnt">向服务器发不跳转的统计请求</p>		</li><li>			<span class="fhead"></span>			<p class="fname">悟空空</p>			<p class="fbcnt">禁用网页的鼠标右键功能</p>		</li><li>			<span class="fhead"></span>			<p class="fname">悟空空</p>			<p class="fbcnt">厦门游的一些准备工作</p>		</li><li>			<span class="fhead"></span>			<p class="fname">悟空空</p>			<p class="fbcnt">结婚誓盟</p>		</li><li>			<span class="fhead"></span>			<p class="fname">悟空空</p>			<p class="fbcnt">畜生,我向你求婚了</p>		</li></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部区域 -->
+		<div class="g-ft">
+			<div class="m-ftw">
+				<a href="" class="item">公司简介</a>-
+				<a href="" class="item">联系方法</a>-
+				<a href="" class="item">招聘信息</a>-
+				<a href="" class="item">客户服务</a>-
+				<a href="" class="item">相关法律</a>-
+				<a href="" class="item">博客风格</a>-
+				<a href="" class="item">手机博客</a>-
+				<a href="" class="item"><span class="f-ib f-vam"></span>订阅此博客</a>
+				<p>网易公司版权所有 ©1997-2011</p>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/template" id="blogTpl">
+		<% var  isTop = (rank=='5'), 
+				isPrivate = (allowView=='10000'),
+				id = id; %>
+		<div class="top">
+			<div class="f-fl">
+				<input type="checkbox" class="f-vam cbox"><a href=""><%=title%></a>
+			</div>
+			<ul class="m-options f-fr">
+				<li>
+					<a href="" onclick="return NS.handler.edit(\'<%=id%>\');">编辑</a>
+				</li>
+				<li class="more" style="z-index:$$;">
+					<a href="">更多</a>
+					<span></span>
+					<ul>
+						<li><a href="" onclick="return NS.handler.deleteBlog(\'<%=id%>\');">删除</a></li>
+						<% if(isTop) {
+							echo('<li><a href="" onclick="return NS.handler.top(\''+id+'\',false)">取消置顶</a></li>');
+						}else{
+							echo('<li><a href="" onclick="return NS.handler.top(\''+id+'\',true)">置顶</a></li>');
+						} %>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="btm">
+			<% if(isPrivate) {
+				echo('<span class="private"></span>');
+			} %>
+			<span class="attach"><% echo(new Date(Number(publishTime)).Format("yyyy-MM-dd hh:mm:ss")) %></span>
+			<span class="attach">阅读<%=accessCount%></span>
+			<span class="attach">评论<%=commentCount%></span>
+		</div>
+	</script>
+	<script type="text/template" id="friendTpl">
+		<li>
+			<span class="fhead"></span>
+			<p class="fname"><%=userNickname%></p>
+			<p class="fbcnt"><%=title%></p>
+		</li>
+	</script>
+	<script type="text/javascript" src="./3_files/base.js"></script>
+	<script type="text/javascript" src="./3_files/zuoye1.js"></script>
+
+</body></html>

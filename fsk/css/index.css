@@ -1,0 +1,90 @@
+/* grids */
+.g-top{width: 100%;height: 28px;background-color: #f8f8f8;font: 12px/28px arial,\5b8b\4f53;}
+.g-head{width: 100%;height: 68px;padding-top: 5px;background: url(../images/background.png) repeat-x 0em 0em;} /* 还差一个background-image属性 */
+.g-body{width: 990px;margin: 0 auto;text-align: left;padding-top: 10px;}
+.g-edge{float: left;width: 145px;margin-right: -145px;}
+.g-right{float: right;width: 100%;}
+.g-content{margin-left: 155px;border: 1px solid #bbb;padding: 0 20px;background-color: #fff;}
+.g-contentTitle{height: 62px;}
+.g-contentTitle h2{font: 20px/60px arial,\5b8b\4f53;color: #333;}
+.g-contentBody{margin-right: 245px;float: left;width: 548px;overflow: hidden}
+.g-blogContent{width: 1096px;position: relative;}
+.g-blogBody{width: 548px;float: left;}
+.g-blogLabel{width: 548px;float: left;}
+.g-contentFriend{float: right;width: 225px;margin-left: -225px;}
+.g-buttom{width: 990px;margin: 0 auto;text-align: left;}
+
+/* modules */
+.m-profile .center,.m-profile .mail,.m-blog .title,.m-blog .title p,.u-button,.m-buttom .otherLinks .rss,.m-friendItem .m-Image,.blogItem .head .menuItems .more,.blogItem .head .private{background: url(../images/background.png) no-repeat 9999em 9999em;}
+
+.m-nav{padding-left: 20px;float: left;}
+.m-nav li{float: left;display: block;margin-right: 12px;}
+.m-profile{float: right;padding: 7px 0 7px;line-height: 12px;}
+.m-profile li{float: right;display: inline;padding: 0 12px;height: 12px;border-right: 1px solid #ccc;}
+.m-profile .quit{border-right: none;}
+.m-profile .center{margin-right: 12px;padding-left: 20px;background-position: 0px -260px;}
+.m-profile .mes{color: #f70;}
+.m-profile .feedback{margin-left: 8px;}
+.m-profile .name{margin-right: 12px;}
+.m-profile .mail{padding-left: 18px;background-position: 0px -190px;}
+.m-wel{width: 990px;margin: 0 auto;text-align: left;}
+.m-wel .usrPic{display: block;float:left;margin-right: 20px;}
+.m-wel .usrPic img{border: none;width: 50px;height: 50px;}
+.m-wel .usrInfo{float: left;}
+.m-wel .usrInfo h1{font: 18px/24px "Microsoft YaHei",\5fae\8f6f\96c5\9ed1,arial,\5b8b\4f53;color: #7b7b7b;margin-bottom: 5px;}
+.m-blog{text-indent: 32px;font: 12px/28px arial,\5b8b\4f53;margin-bottom: 20px;}
+.m-blog .title{height: 31px;background-position: 0 -93px;border: 1px solid #bbb;border-bottom: none;border-top: none;}
+.m-blog .title p{color: #333;font-weight: bold;background-position: 0px -380px}
+.m-blogManage .title p{background-position: 0px -340px}
+.m-service .title p{background-position: 0px -300px}
+.m-blog ul{border: 1px solid #bbb;background-color: #fff;border-top: none;border-bottom: none;}
+.m-blog li a{color: #21759b;line-height: 24px;height: 24px;}
+.m-blog li a:hover{background-color:#ececec;}
+.m-blog li.bottom{border: 1px solid #bbb;border-top: none;width: 143px;margin-left: -1px;padding: 0 0 7px;}
+.m-blog .cur{color: #333;background-color: #ececec;}
+.m-log {height: 200px;}
+.m-tab {border-bottom: 1px solid #bbb;margin-bottom: 13px;width: 548px}
+.m-tab li{float: left;margin: 0 -1px -1px 0;}
+.m-tab li a{display: block;text-align: center;border: 1px solid #bbb;background-color: #f7f7f7;width: 90px;height: 25px;font: 12px/25px arial,\5b8b\4f53;color: #21759b;}
+.m-tab li a.curr{background-color: #fff;color: #2b2b2b;border-bottom: none;height: 26px;}
+.m-form{background-color: #ececec; padding: 6px 8px 8px;height:151px;font: 12px/23px arial,\5b8b\4f53;}
+.m-form .title{width: 100%;height: 23px;line-height: 23px;text-indent: 12px;margin-bottom: 5px;color: #333;background-color: #f8f8f8;border: none;}
+.m-form .content{display: block;width: 506px;padding: 0 12px;line-height: 22px;height: 94px;margin-bottom: 6px;color: #a4a4a4;background-color: #fff;border: 1px solid #bbb;overflow: auto;}
+.m-form .buttons{text-align: right;}
+.m-itemsList .listBar{height: 55px;padding-left: 20px;padding-top: 5px}
+.m-itemsList form input {vertical-align: middle;width: 13px;height: 13px;}
+.m-itemsList .deleteBu{margin-left: 15px;width: 42px;height: 22px;line-height: 16px;vertical-align: middle}
+.m-friend{width: 207px;height: 310px;font: 12px/36px arial,\5b8b\4f53;padding: 0 9px;background-color: #fafafa}
+.m-friend .friendHeader{font-weight: bold;color: #7b7b7b;margin-bottom: 4px}
+.m-buttom{padding: 15px 0 8px;font: 12px arial,\5b8b\4f53;color: #7b7b7b;text-align: center;}
+.m-buttom .otherLinks a{color: #7b7b7b;margin-right: 17px;}
+.m-buttom .otherLinks .rss{padding-left: 17px;background-position: 0px -220px;}
+.m-buttom .copyright{margin-top: 20px;}
+.m-friendItem{margin-top: 10px;color: #21759b;}
+.m-friendItem .m-Image{float:left;background-position:0 -440px; width:40px;height: 44px;}
+.m-friendItem .userName{float: right;padding-right: 128px;font: 13px/21px arial,\5b8b\4f53;}
+.m-friendItem .content{float: left;font: 9px/21px arial,\5b8b\4f53;}
+.blogItem{height: 46px;padding-left: 20px;border-bottom: 1px dotted #d8e0e5;}
+.blogItem .head{height: 23px;color: #21759b;font: 13px/23px arial,\5b8b\4f53;}
+.blogItem .head .title{padding-left: 6px;}
+.blogItem .head .private{padding-left: 20px;background-position: 0px -537px;}
+.blogItem .head .menu{float: right;width: 100px;height: 46px;}
+.blogItem .head .menu a{color: #21759b;display: inline-block;}
+.blogItem .head .menuItems{float: right;height: 23px;overflow: hidden;position: relative;width: 60px;}
+.blogItem .head .menuSelect{z-index: 20;border: 1px solid #c8d9e3;height: 65px;position: relative;background-color: #fff}
+.blogItem .head .menuItems .more{background-position: -3px -490px;width: 40px;}
+.blogItem .head .menuItems li:hover{background-color:#ececec;}
+.blogItem .buttom{height: 23px;padding-left: 22px;color: #7b7b7b}
+.blogItem .buttom .time{margin-right: 16px;}
+.blogItem .buttom .readNum{margin-right: 42px;}
+.m-label{padding: 31px 0 17px;border-bottom: 1px dotted #d8e0e5;font: 12px/20px arial,\5b8b\4f53;color: #7b7b7b;text-align: center;}
+
+/* units */
+.u-button{display: inline-block;text-align: center;height: 22px;font: 12px/22px arial,\5b8b\4f53;color: #515151;border: none;letter-spacing: 1px;cursor: pointer;word-wrap: normal;white-space: nowrap;background-position: 0px -146px;}
+.u-button-pho{padding: 0px 0px 0 23px;}
+.u-buttonPho{background-position: -164px -146px;padding: 0 23px 0 0px;}
+.u-button-release,.u-button-empty{padding: 0px 0px 0 12px;}
+.u-buttonRe,.u-buttonEm{background-position: -180px -146px;padding: 0 12px 0 0px;}
+.u-buttonPho{background-position: -159px -146px;padding: 0 23px 0 0px;}
+.u-button-release,.u-button-empty{padding: 0px 0px 0 12px;}
+.u-buttonRe,.u-buttonEm{background-position: -179px -146px;padding: 0 12px 0 0px;}

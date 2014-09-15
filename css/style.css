@@ -1,0 +1,92 @@
+/*Index*/
+.blog-body{ color: #666;}
+.g-hd{ width: 100%; }
+.m-nav{ height: 26px; background-color: #fefeff; border-bottom: 1px solid #ccc; background-position: 0 0; background: url(../images/top_bg1.png); }
+.topbar{ position: relative; zoom: 1; line-height: 27px; padding: 0 14px 0 28px; }
+.btn-0-0 {  display: block;  width: 52px; margin-right: 4px; line-height: 24px; text-align: center;}
+.btn-0-1 { display: block;  width: 85px; margin-right: 4px; text-align: center;line-height: 24px; border: none; color: #515151; }
+.u-spr{ background: url(../images/sprite.png) no-repeat 99999px 99999px;}
+.u-pull{ display:inline-block; zoom: 1;_margin-top:8px;height:10px;background-position:0 -259px;;line-height:10px;}
+.u-msg{ background-position: 0 -103px; margin: 0 2px 0 4px; padding-left: 12px; }
+.m-nav .nav-drop{position: absolute;display: none;border: 1px solid #cccccc;}
+.m-nav .nav-drop .drop-li{display: block;padding: 0 5px;line-height: 28px;}
+.m-nav .nav-drop .drop-li:hover{color:#FFF;background-color:#939393;}
+.m-nav .nav-drop .nav-last{border-bottom: 1px solid #cccccc;}
+.m-nav .select{position:absolute;width: 77px;display:block;background-color: #ffffff;}
+.m-nav .select li a:hover{color: #ffffff;}
+.topbar .tt-first{ overflow: hidden;}
+.topbar .top-divi{padding-left: 14px;color: #cccccc;}
+.topbar .tt .tt0{ display: block; padding: 0 12px 0 0px; }
+.topbar .u-home{  padding-left: 18px; padding-top: 2px;background-position: 0 -138px;}
+.topbar .tt .last{ color: #a4a4a4; }
+.m-banner{background: url(../images/top_bg2.png) repeat-x 0 0;border-bottom: 1px solid #ccc;}
+.m-banner .header{ height: 47px; width: 990px;padding: 10px 0; margin: 0 auto;  }
+.m-banner .header img{ float:left; height:50px; width:50px; }
+.m-banner .header .ava-tt{ margin-left: 21px; padding-top: 2px; }
+.m-banner .header .ava-tt span{ font-size: 19px; color: #7d7d7d; }
+.m-banner .header .ava-tt .upload{padding-top: 4px;}
+.m-banner .header .ava-tt .upload button{background-position: 0 -156px;}
+/*Content*/
+.g-bd{ padding: 0px 0 12px; margin: 0 auto; width: 990px; }
+.g-bd .m-side{ width: 155px; margin-top: 10px; }
+.g-bd .m-side .side{ vertical-align: top; display: inline-block; width: 145px; margin: 0 0 20px 0; }
+.bdc0{ border: 1px solid #bbbbbb; }
+/*Sidebar*/
+.m-side .side .s-tt{ display: inline-block; margin-top: 1px;font-weight: bold; font-size: 12px; }
+.u-side{ background: url('../images/side.png') no-repeat 99999px 99999px;}
+.m-side .side .side-top{ background-position: 0 1px; height: 13px; padding: 9px; _padding: 8px;}
+.m-side .side .side-ct{border-left: 1px solid #bbbbbb;border-right: 1px solid #bbbbbb}
+.m-side .side .side-btm{ height: 6px;_height: 2px; background-position: 0 -49px;overflow: hidden;}
+.m-side .side .side-t{padding-left: 10px;}
+.m-side .side .new{ background-position: 0 0; }
+.m-side .side .side-icn{height: 16px;width: 16px;float: left;padding-left: 3px;}
+.m-side .side .admin{ background-position: 0 -20px; }
+.m-side .side .srv{ background-position: 0 -40px; }
+.m-side .side ul li a{padding:5px 67px 7px 28px;display: block;}
+.m-side .side ul li a:hover{background-color: #ececec;}
+/*Category*/
+.m-log{ margin-top: 10px; padding: 20px; background-color: #ffffff; width: 793px; }
+.m-log .tt { font-weight: normal; font-size: 20px; }
+.m-log .log-lf{ width: 550px; padding-right: 8px; }
+.log-tab .tab-tt{ display: block; float: left;width: 90px; height: 26px; line-height: 25px;  background-color: #f7f7f7; margin-right: -1px; _margin-bottom: -4px;text-align: center; cursor: pointer;}
+.log-tan span{ position: relative; height: 26px; margin: 20px 0 26px 0; line-height: 25px; }
+.log-tab .tab-now{ background-color: #ffffff; border-bottom-color:#fff; _border-bottom: 1px solid #fff;}
+.log-tab .tab .bdc-tab{ position: relative; height: 27px; border-width: 0 0 1px 0; border-color: #bbbbbb; border-style: solid; margin: 20px 0 6px 0; }
+.log-tab .tab .tab-con{ width: 538px; padding: 5px;}
+.log-tab .tab .tab-con .m-post{background-color: #ececec;padding: 6px 8px 35px;}
+.log-tab .tab .tab-con .m-tag{margin: 14px;padding: 31px 0 14px;text-align: center;color: #7b7b7b;border-bottom: 1px dotted #d9e1e6;}
+.log-tab .tab .tab-con .tab-c{margin-top: 6px;}
+.log-tab .tab .tab-con .tab-note{border:none;background-color: #f8f8f8;color:#333;height:20px;width:520px;padding-left: 10px;}
+.log-tab .tab .tab-con .blog-wr{ margin-bottom: 6px; width: 516px; height: 76px; margin: 2px; color:#a4a4a4;}
+.log-tab .tab .tab-con .btnwrap a{ float: right; background-position: 0 -77px; }
+.log-list{padding:20px 0 0 0px;}
+.log-list #m-list{overflow:hidden;}
+.log-list .checkbtn{padding-top: 10px;}
+.log-list .checkbtn #checkall{margin-right: 4px;}
+.log-list .checkbtn #del{margin-left: 12px;}
+.log-list .blog-list{  width: 550px; line-height: 23px; border-bottom: 1px dotted #d8e0e5;padding-top: 20px; }
+.log-list .blog-list .ls0{ line-height: 13px; }
+.log-list .blog-list .ls0 input{margin-right: 9px;}
+.log-list .blog-list .ls0 a, .ls1 a{color: #21759b;}
+.log-list .blog-list .ls1{ width: 59px; position: relative; margin-right: 30px;}
+.log-list .blog-list .ls-edit{float: left;padding-right: 8px;}
+.log-list .blog-list .ls-more{ overflow: hidden; height: 23px; vertical-align: middle;}
+.log-list .blog-list .select{position: absolute;height: 73px;background-color: #ffffff;overflow: hidden;width: 36px;z-index: 999;border: 1px solid #c8d9e3;left: 31px;top: -1px;}
+.log-list .blog-list .select li:hover{background-color: #ececec;}
+.log-list .blog-list .ls-btm { padding: 10px 0px 10px 21px; _margin-left:7px;}
+.log-list .blog-list .ls-btm .lsread{margin:0 42px 0 16px;}
+.log-list .ls-dlt{ padding: 5px; margin: 7px 0 0 10px; }
+.m-list{ width: 223px; background-color: #fafafa; border-left: 1px solid #f5f5f5; border-right: 1px solid #f5f5f5; vertical-align: top; }
+.m-list .ls-frd{ padding: 10px 10px 20px 10px; font-size: 14px; }
+.m-list .ls-frd .frd-tt{ font-size:13px; font-weight:bold; color:#7b7b7b; }
+.m-list .ls-frd .frd{ line-height: 20px; padding-top: 10px; }
+.m-list .ls-frd .frd img{ width: 40px; height: 40px; float: left; }
+.m-list .ls-frd .frd span,a{ font-size: 12px; }
+.m-list .ls-frd .frd .frdmt{ width: 127px; padding-top: 3px; }
+.m-list .frd-btm{width: 225px;height: 5px;_height: 1px; background-position: -1px -35px; overflow: hidden;}
+/*Footer*/
+.g-ft .m-ft{ padding-top: 10px; text-align: center; }
+.m-ft .btm{ padding: 20px 0 0px 0; }
+.m-ft .u-rss{background-position: 0 -59px;}
+.m-corp .last{padding-left: 16px;}
+.m-corp a{ padding-right: 30px; }

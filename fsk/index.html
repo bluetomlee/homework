@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <title>blog</title>
+</head>
+<body>
+<div class="g-top f-cb">
+    <div class="m-nav">
+        <ul>
+            <li><a href="#" target="_blank">博客</a></li>
+            <li><a href="#" target="_blank">摄影</a></li>
+            <li><a href="#" target="_blank">随便看看</a></li>
+        </ul>
+    </div>
+    <div class="m-profile">
+        <li class="quit"><a href="#" target="_blank">退出</a></li>
+        <li><a class="center" href="#" target="_blank">个人中心</a>消息（<a class="mes" href="#" target="_blank">1274</a>）<a
+                class="feedback" href="#" target="_blank">反馈</a></li>
+        <li><span class="welcome">中午好</span>，<span class="name">testblog</span>(<a class="mail" href="#" target="_blank">5</a>)
+        </li>
+    </div>
+</div>
+<div class="g-head f-cb">
+    <div class="m-wel">
+        <a class="usrPic " href="#" target="_blank"><img class="j-info" src=""></a>
+
+        <div class="usrInfo ">
+            <h1>欢迎！<span class="usrName j-info">testblog</span></h1>
+            <span class="u-button u-button-pho"><span class="u-button u-button-pho u-buttonPho">传相片</span></span>
+        </div>
+    </div>
+</div>
+<div class="g-body f-cb">
+    <div class="g-edge">
+        <div class="m-blog">
+            <div class="title">
+                <p>博客动态</p>
+            </div>
+            <ul class="j-nav">
+                <li><a href="#" target="_self">博客动态</a></li>
+                <li class="bottom"><a href="#" target="_self">消息中心</a></li>
+            </ul>
+        </div>
+        <div class="m-blog m-blogManage">
+            <div class="title">
+                <p>博客管理</p>
+            </div>
+            <ul class="j-nav">
+                <li><a class="cur" href="#" target="_self">日志管理</a></li>
+                <li><a href="#" target="_self">博友管理</a></li>
+                <li><a href="#" target="_self">访问统计</a></li>
+                <li><a href="#" target="_self">博客设置</a></li>
+                <li class="bottom"><a href="#" target="_self">博客装扮</a></li>
+            </ul>
+        </div>
+        <div class="m-blog m-service">
+            <div class="title">
+                <p>服务</p>
+            </div>
+            <ul class="j-nav">
+                <li><a href="#" target="_self">手机博客</a></li>
+                <li><a href="#" target="_self">博客复制</a></li>
+                <li><a href="#" target="_self">邮件写博</a></li>
+                <li><a href="#" target="_self">手机邮</a></li>
+                <li><a href="#" target="_self">投票</a></li>
+                <li class="bottom"><a href="#" target="_self">读书</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="g-right">
+        <div class="g-content f-cb">
+            <div class="g-contentTitle">
+                <h2>日志管理</h2>
+            </div>
+            <ul id="j-tab" class="m-tab f-cb">
+                <li><a class="curr">日志</a></li><li><a class="nCur">标签</a></li>
+            </ul>
+            <div class="g-contentBody">
+                <div class="g-blogContent f-cb">
+                    <div class="g-blogBody">
+                        <div class="m-log">
+
+                            <form class="m-form" name="wirteBlog" method="post">
+                                <input class="title" name="title" type="text" value="日志标题">
+                                <textarea class="content" name="content">这里可以写日志哦~</textarea>
+
+                                <div class="buttons">
+                            <span class="u-button u-button-release">
+                                <input class="u-button u-button-release u-buttonRe" name="releaseBu" type="submit" value="发 布">
+                            </span>
+                            <span class="u-button u-button-empty">
+                                <input class="u-button u-button-empty u-buttonEm" name="resetBu" type="reset" value="清 空">
+                            </span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="m-itemsList">
+                            <form name="listForm" method="post">
+                                <div id="listShow">
+                                </div>
+                                <div id="listButtom" class="listBar">
+                                    <input class="cbAll" id="all" name="all" type="checkbox"/>
+                                    <label for="all">全选</label>
+                                    <input type="button" id="deleteBu" class="deleteBu" value="删除">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="g-blogLabel">
+                        <div class="m-label">
+                            <div class="empty">没有标签</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="g-contentFriend">
+                <div class="m-friend">
+                    <div class="friendHeader">最新好友日志</div>
+                    <div class="friendList" name = "friendList">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="g-buttom">
+    <div class="m-buttom">
+        <div class="otherLinks">
+            <a href="#" target="_blank">公司简介</a>
+            <a href="#" target="_blank">联系方法</a>
+            <a href="#" target="_blank">招聘信息</a>
+            <a href="#" target="_blank">客户服务</a>
+            <a href="#" target="_blank">相关法律</a>
+            <a href="#" target="_blank">博客风格</a>
+            <a href="#" target="_blank">手机博客</a>
+            <a class="rss" href="#" target="_blank">订阅此博客</a>
+        </div>
+        <div class="copyright">网易公司版权所有 ©1997-2011</div>
+    </div>
+</div>
+<div class="blogItem" name = "blogItem" style="display: none;">
+    <div class="head">
+        <div class="menu">
+            <ul class="menuItems" name = "menuItems">
+                <li><a class="more">更多</a></li>
+                <li><a class="delete">删除</a></li>
+                <li><a class="rankFirst">置顶</a></li>
+            </ul>
+            <a class="edit">编辑</a>
+        </div>
+        <input type="checkbox" class="cb"/>
+        <span class="title"></span>
+    </div>
+    <div class="buttom">
+        <span class="time"></span>
+        <span class="readNum"></span>
+        <span class="comment"></span>
+    </div>
+</div>
+<!-- <script type="text/javascript" src="js/Util.js"></script>
+<script type="text/javascript" src="js/Main.js"></script> -->
+</body>
+</html>
